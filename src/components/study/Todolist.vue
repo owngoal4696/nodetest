@@ -64,7 +64,8 @@ export default {
   }
   .right-view {
     flex-grow: 1;
-    padding: 10px;
+    padding: 150px;
+    background-color: #0067C0;
   }
 }
 </style>

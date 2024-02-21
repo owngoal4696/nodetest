@@ -26,5 +26,6 @@ export default {
 <style scoped>
 .directive-page {
   padding: 20px;
+  background-color: #f7f6f3;
 }
 </style>

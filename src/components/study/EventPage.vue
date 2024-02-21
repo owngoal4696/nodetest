@@ -12,7 +12,7 @@
     <!-- Vue.js -->
     <h3><span class="badge badge-secondary">Vue.js</span></h3>
     <span>クリックされた回数は{{count2}}回です </span>
-    <button id="button" class="btn btn-sm btn-info" @click="onClickButton()">Click Me</button>
+    <button id="button" class="btn btn-sm btn-info" @click="onClickButton2()">Click Me</button>
   </div>
 </template>
 
@@ -27,8 +27,10 @@ export default {
   methods : {
     onClickButton : function() {
       this.count++;
+    },
+    onClickButton2() {
       this.count2--;
-    }
+    },
   }
 }
 </script>
