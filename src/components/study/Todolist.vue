@@ -16,6 +16,8 @@
    </ul>
    <!-- ラベル表示 -->
     <span>{{newTodoText}}が入力されました</span>
+    <!-- 回数表示 -->
+    <br><span>項目数：{{todos.length}}</span>
     </div>
 
     <div class="right-view">
