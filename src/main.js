@@ -11,7 +11,7 @@ const router = new VueRouter({
   mode: 'history',
   routes : [
     {
-      path: '/main',
+      path: '/',
       component: () => import('./components/MainPage.vue')
     },
     {
@@ -32,7 +32,7 @@ const router = new VueRouter({
     },
     {
       path: '/*',
-      redirect: '/main',
+      redirect: '/',
     }
   ]
 })
